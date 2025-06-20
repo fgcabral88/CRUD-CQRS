@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>CRUD_CQRS.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD-CQRS.Domain\CRUD-CQRS.Domain.csproj" />
+    <ProjectReference Include="..\CRUD-CQRS.Infrastructure\CRUD-CQRS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
