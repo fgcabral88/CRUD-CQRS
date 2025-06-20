@@ -9,7 +9,7 @@ Este projeto é um CRUD CQRS (Command Query Responsibility Segregation) para a e
 * .NET 8
 * ASP.NET Core
 * Entity Framework Core
-* MySQL
+* SQLServer
 * CQRS Framework
 
 **Estrutura do Projeto**
